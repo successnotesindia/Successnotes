@@ -4,43 +4,67 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Successnotes</title>
+
 <style>
 body{
+margin:0;
 font-family:Arial,sans-serif;
 background:#f4f7fb;
-margin:0;
-padding:0;
+}
+
+header{
+background:#1565c0;
+color:white;
+text-align:center;
+padding:30px;
+}
+
+nav{
+background:#0d47a1;
+padding:10px;
 text-align:center;
 }
-header{
-background:#0d6efd;
-color:white;
-padding:20px;
-}
-.card{
-background:white;
-margin:15px;
-padding:20px;
-border-radius:10px;
-box-shadow:0 2px 8px rgba(0,0,0,.2);
-}
-a{
-display:inline-block;
-margin-top:10px;
-padding:10px 20px;
-background:#28a745;
+
+nav a{
 color:white;
 text-decoration:none;
-border-radius:5px;
+margin:10px;
+font-weight:bold;
 }
+
+.container{
+padding:20px;
+}
+
+.card{
+background:white;
+padding:20px;
+margin:15px 0;
+border-radius:10px;
+box-shadow:0 2px 8px rgba(0,0,0,.2);
+text-align:center;
+}
+
+.btn{
+display:inline-block;
+background:#28a745;
+color:white;
+padding:10px 20px;
+border-radius:5px;
+text-decoration:none;
+margin-top:10px;
+}
+
 footer{
-margin-top:20px;
-padding:15px;
 background:#222;
 color:white;
+text-align:center;
+padding:15px;
+margin-top:20px;
 }
 </style>
 </head>
+
 <body>
 
 <header>
@@ -48,23 +72,33 @@ color:white;
 <p>Class 10 | Class 12 | UP Police Study Material</p>
 </header>
 
-<div class="card">
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="contact.html">Contact</a>
+<a href="privacy.html">Privacy</a>
+</nav>
+
+<div class="container"><div class="card">
 <h2>📘 Class 10 Notes</h2>
-<a href="#">Coming Soon</a>
+<p>Free PDF Notes for UP Board Class 10.</p>
+<a class="btn" href="#">Coming Soon</a>
 </div>
 
 <div class="card">
 <h2>📗 Class 12 Notes</h2>
-<a href="#">Coming Soon</a>
+<p>Free PDF Notes for UP Board Class 12.</p>
+<a class="btn" href="#">Coming Soon</a>
 </div>
 
 <div class="card">
 <h2>👮 UP Police Notes</h2>
-<a href="#">Coming Soon</a>
-</div>
+<p>Free Notes, Practice Sets & Study Material.</p>
+<a class="btn" href="#">Coming Soon</a>
+</div></div>
 
 <footer>
-© 2026 Successnotes
+<p>© 2026 Successnotes. All Rights Reserved.</p>
 </footer>
 
 </body>
